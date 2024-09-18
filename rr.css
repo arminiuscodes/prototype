@@ -26,7 +26,8 @@
   font-size: 1rem;
 }
 #sidebar{
-  width: 10rem ;
+  width: 15rem ;
+  
 }
 #sidebar .navcontent{
   margin-left: 1rem;
@@ -147,19 +148,19 @@
   display: none;
 }
 #slide1 h1,#slide2 h1,#slide3 h1,#slide4 h1{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 2rem;
   -webkit-transform:translateY(-2rem);
 }
 .card1,.card2,.card3{
-  width: 16rem;
-  height: 14rem;
-  -webkit-transform:translateY(-2rem);
+  width: 17rem;
+  height: 15rem;
+  -webkit-transform:translateY(-4rem);
   margin-left: 2rem;
 }
 .img img{
-  width: 2rem;
-  height: 2rem;
+  width: 4rem;
+  height: 4rem;
 }
 .naming h2{
   font-size: 1rem;
@@ -178,54 +179,63 @@
   height: 1rem;
 }
 .digital_marketing_info{
-  
-  
-}
-.info_img,.info1_img,.info2_img{
-  width: 40rem;
-  height: 14rem;
-  -webkit-transform: translateY(-9rem);
-  -webkit-transform: translateX(2rem);
-  
+  flex-wrap: wrap;
+  flex-direction: column;
   
 }
-.info_img img{
- width: 4.4rem;
- height: 7rem;
+.informations h2{
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  width: 15rem;
+  
+}
+.details p{
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  width: 15rem;
+  
+}
+.details2 li{
+  font-size: 0.7rem;
+  line-height: 1rem;
+  width: 15rem;
+  margin-left: -4rem;
+}
+.info_contents{
+  transform: translateY(2rem);
+  margin-left: -4rem;
+  text-align: start;
 }
 .horizontal_line{
   display: none;
 }
-.new_info_content{
+.info_img{
+  width: 60vw;
+  height: 60vw;
+  margin-left: 6vw;
+  transform: translateY(-3.5rem);
+ }
+ .info_img img{
+   width: 20vw;
+   height: 28vw;
+   
   
-  
-  
+    
+ }
+ .info1_img{
+  margin-left: 6vw;
+  transform: translateY(-3.5rem);
+ }
+.info1_img img{
+  width: 60vw;
+  height: 60vw;
+  box-shadow:none;
 }
-.informations h2{
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  width: 40rem;
-  margin-left: 10rem;
+
+.info_contents.iphone-specific {
+  -webkit-transform: translateY(12rem);
 }
-.details p{
-  font-size: 0.8rem;
-  line-height: 1.5rem;
- width: 20rem;
- margin-right: 10rem;
- 
-}
-.new_details2{
-  margin-top: 13rem;
-  
-}
-.new_details2 li{
-  font-size: 0.8rem;
-  line-height: 1rem;
-  width: 20rem;
-  margin-left: -7rem;
-  
-  
-}
+
 /*---------------blog ---------------*/
 #blog{
   height: 50rem;
@@ -280,12 +290,309 @@
   font-size: 0.6rem;
   line-height: 1rem;
 }
+.hr_content.iphone-specific{
+  transform: translateY(14rem);
+  margin-left: -11.5rem;
+}
+.it_content.iphone-specific{
+  transform: translateY(15rem);
+  margin-left: -11.5rem;
+}
 /* ----------------- feedback ---------------*/
+.feedback_section{
+  height: 70rem;
+}
+.fdback_txt h1{
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  -webkit-transform: translateY(-2rem);
+}
+.cards{
+  flex-direction: column;
+  height: 60rem;
+  -webkit-transform: translateY(-18rem);
+}
+.cards01,.cards02,.cards03{
+  width: 18rem;
+  height: 30rem;
+  justify-content: center;
+  align-items: center;
+}
+.one img{
+  width: 4rem;
+  height: 4rem;
+}
+.one p{
+  font-size: 0.7rem;
+  line-height: 1rem;
+}
+.one p span{
+  font-size: 0.7rem;
+  line-height: 1rem;
+}
+.information p{
+  font-size: 0.7rem;
+  line-height: 1.1rem;
+}
+/*------------- our team -------------*/
+.ourteam h3{
+  font-size: 1.2rem;
+}
+.ourteam  p{
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+.minicards{
+  width: 20rem;
+  height: 10rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.min_card img{
+   width: 4rem;
+   height: 4rem;
+}
+.min_card p{
+  font-size: 0.6rem;
+  line-height: 1rem;
+}
+/* --------- our client ---------------*/
+.our_clients{
+  height: 40rem;
+}
+ .client_heading h4{
+  font-size: 1.2rem;
+ }
+ .client_heading p{
+  font-size: 0.8rem;
+ }
+ /* .swiper{
+  height: 80rem;
+  -webkit-transform: translateY(4rem);
+ } */
+ .swiping{
+  flex-direction: column;
+  height: 30rem;
+ }
+ .sliding_feature{
+  flex-direction: column;
+ }
+ .cd1 {
+  width: 8rem;
+  height: 8rem;
+  box-shadow: none;
+ }
+ .arrow1__1{
+  display: none;
+ }
+ .arrow2__2{
+  width: 3rem;
+  height: 3rem;
+  margin-top: 1rem;
+  margin-left: 1.4rem;
+ }
+ .arrow2__2 img{
+  width: 1.4rem;
+  height: 1rem;
+ }
+ #imgage_1 img{
+  width: 15vw;
+  height: 5vw;
+}
+#imgage_2 img{
+  width: 19vw;
+  height: 15vw;
+}
+#imgage_3 img{
+  width: 17vw;
+  height: 10vw;
+}
+#imgage_10 img{
+  width: 17vw;
+  height: 17vw;
+}
+#imgage_11 img{
+  width: 18vw;
+  height: 17.5vw;
+}
+#imgage_12 img{
+  width: 17vw;
+  height: 17vw;
+}
+#imgage_4 img,#imgage_5 img{
+  width: 17vw;
+  height: 17vw;
+}
+#imgage_6 img{
+  width: 17vw;
+  height: 10vw;
+}
+/*--------------- whatsapp ----------------*/
+.whatsapp_contact{
+  height: 30rem;
+  flex-direction: column;
+  margin-top: -1rem;
+}
+.design1 img{
+  display: none;
+}
+.star_img img{
+  display: none;
+}
+.content01{
+  -webkit-transform: translateY(-2rem);
+  margin-left: 2rem;
+}
+.content01 h3{
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+.content01 p{
+  font-size: 0.8rem;
+  line-height: 1rem;
+  width: 15rem;
+}
+.content01 a{
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+.contact_deatils{
+  -webkit-transform: translateY(-2rem);
+  padding-right: 11rem;
+}
+.contact_deatils img{
+  width: 2rem;
+  height: 2rem;
+}
+.contact_deatils p{
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.contact_deatils h3{
+  font-size: 1rem;
+  line-height: 1rem;
+}
+/*------------ contact---------------------------*/
+/* .contact{
+  height: 40rem;
+}
+.contact_details{
+  
+}
+.c1{
+  -webkit-transform: translateY(-5rem);
+}
+.c1 img{
+  width: 4rem;
+  height: 3rem;
+}
+.c1 p{
+  font-size: 0.8rem;
+  line-height: 1rem;
+  width: 15rem;
+}
+.icons a i{
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.informations h3{
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.informations a{
+  font-size: 0.8rem;
+  line-height: 1rem;
+} */
+ .contact{
+  height: 40rem;
+ }
+.contact_details{
+  width: 70vw;
+  
+}
+.c1{
+  transform: translateY(-5vh);
+  -webkit-transform: translateY(-5vh);
+}
+.c1 img{
+  width: 5rem;
+  height: 4rem;
+}
+.c1 p{
+  font-size: 3vw;
+  line-height: 4vw;
+  width: 15rem
+}
+#info{
+  transform: translateY(-7vh);
+  -webkit-transform: translateY(-7vh);
+}
+.informations h3{
+  font-size: 1rem;
+}
+.informations a{
+  font-size: 0.8rem;
+  line-height: 1rem;
+  
+}
+.contact_us{
+  transform: translateY(9rem);
+  -webkit-transform: translateY(9rem);
+ margin-left: -22rem;
+}
+.contact_us h3{
+  font-size: 1rem;
+}
+.contact_us a{
+  font-size: 0.7rem;
+  
+  line-height: 1rem;
+}
+.contact_footer{
+  -webkit-transform: translateY(8rem);
+  flex-direction: column;
+  gap: 1rem;
+  
+ 
+}
+.rights p{
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+.navigators a{
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+.icons i{
+  font-size: 1.2rem;
+}
+.lines hr{
+  display: none;
+}
+.sticky_buttons .third,.sticky_buttons .fourth,.sticky_buttons .fifth,.sticky_buttons .second{
+  display: none;
+}
+.sticky_buttons .first{
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  justify-content: center;
+  transform: translateY(-10rem);
+}
+
 
 }
-@media (max-width:390px) {
-      .informations h2{
-         margin-top: 17rem;
-      }
-      
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 834px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait)
+  and (hover: none) 
+  and (pointer: coarse) {
+
+  /* Your iPhone-specific styles */
+  .info_contents{
+    -webkit-transform: translateY(15rem);
+  }
 }

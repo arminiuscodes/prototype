@@ -334,6 +334,32 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-
+if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+    // Select all elements with the class "nav_contents"
+    const infoContentsElements = document.querySelectorAll('.info_contents');
+    
+    // Loop through each element and add the "iphone-specific" class
+    infoContentsElements.forEach(function(element) {
+        element.classList.add('iphone-specific');
+    });
+}
+if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+    // Select all elements with the class "nav_contents"
+    const hrContentsElements = document.querySelectorAll('.hr_content');
+    
+    // Loop through each element and add the "iphone-specific" class
+    hrContentsElements.forEach(function(element) {
+        element.classList.add('iphone-specific');
+    });
+}
+if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+    // Select all elements with the class "nav_contents"
+    const itContentsElements = document.querySelectorAll('.it_content');
+    
+    // Loop through each element and add the "iphone-specific" class
+    itContentsElements.forEach(function(element) {
+        element.classList.add('iphone-specific');
+    });
+}
 
 
