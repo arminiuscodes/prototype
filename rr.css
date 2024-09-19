@@ -292,14 +292,17 @@
 .dm_content h2,.finance h2,.it_content h2,.hr_content h2{
   font-size: 1rem;
   line-height: 1rem;
+  -webkit-transform: translateY(-1rem);
 }
 .dm_content p,.finance p,.it_content p,.hr_content p{
   font-size: 0.6rem;
   line-height: 1rem;
+  -webkit-transform: translateY(-1rem);
 }
 .dm_content a,.finance a,.it_content a,.hr_content a{
   font-size: 0.6rem;
   line-height: 1rem;
+  -webkit-transform: translateY(-1rem);
 }
 .hr_content.iphone-specific{
   margin-left: -10.2rem;
@@ -314,7 +317,7 @@
   height: 70rem;
 }
 .feedback_section.iphone-specific{
-  height: 100rem;
+  height: 80rem;
 }
 .fdback_txt h1{
   font-size: 1.2rem;
@@ -330,7 +333,7 @@
   -webkit-transform: translateY(-20rem);
 }
 .cards.iphone-specific{
-  -webkit-transform: translateY(2rem);
+  -webkit-transform: translateY(-12rem);
 }
 .cards01,.cards02,.cards03{
   width: 18rem;
