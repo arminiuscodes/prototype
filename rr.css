@@ -81,6 +81,15 @@
   margin-right: 7rem;
   box-shadow: none;
 }
+.image.iphone-specific img{
+  -webkit-transform: translateY(2rem);
+}
+.image01.iphone-specific img{
+  -webkit-transform: translateY(2rem);
+}
+.image02.iphone-specific img{
+  -webkit-transform: translateY(2rem);
+}
 .dotted_arrow img{
   display: none;
 }
@@ -133,7 +142,7 @@
   height: 3rem;
 }
 #service{
-  height: 70rem;
+  height: 75rem;
 }
 #slide1 .card2 ,#slide1 .card3{
   display: none;
@@ -231,9 +240,11 @@
   height: 60vw;
   box-shadow:none;
 }
-
+.info_contents{
+  
+}
 .info_contents.iphone-specific {
-  -webkit-transform: translateY(12rem);
+  -webkit-transform: translateY(14rem);
 }
 
 /*---------------blog ---------------*/
@@ -270,10 +281,10 @@
   align-items: center;
 }
 .hr_content,.it_content{
-  -webkit-transform: translateY(13rem);
+  -webkit-transform: translateY(14.2rem);
   width: 22rem;
   height: 6rem;
-  margin-left: -10.2rem;
+  margin-left: -10.7rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -291,12 +302,12 @@
   line-height: 1rem;
 }
 .hr_content.iphone-specific{
-  transform: translateY(14rem);
-  margin-left: -11.5rem;
+  margin-left: -10.2rem;
+  -webkit-transform: translateY(14rem);
 }
 .it_content.iphone-specific{
-  transform: translateY(15rem);
-  margin-left: -11.5rem;
+   -webkit-transform: translateY(15rem);
+   margin-left: -10.2rem;
 }
 /* ----------------- feedback ---------------*/
 .feedback_section{
@@ -310,7 +321,7 @@
 .cards{
   flex-direction: column;
   height: 60rem;
-  -webkit-transform: translateY(-18rem);
+  -webkit-transform: translateY(-20rem);
 }
 .cards.iphone-specific{
   -webkit-transform: translateY(-14rem);
