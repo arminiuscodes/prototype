@@ -317,7 +317,7 @@
   height: 70rem;
 }
 .feedback_section.iphone-specific{
-  height: 80rem;
+  height: 90rem;
 }
 .fdback_txt h1{
   font-size: 1.2rem;
@@ -333,7 +333,7 @@
   -webkit-transform: translateY(-20rem);
 }
 .cards.iphone-specific{
-  -webkit-transform: translateY(-12rem);
+  -webkit-transform: translateY(-3rem);
 }
 .cards01,.cards02,.cards03{
   width: 18rem;
