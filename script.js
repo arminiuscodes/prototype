@@ -397,3 +397,12 @@ if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
         element.classList.add('iphone-specific');
     });
 }
+if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+    // Select all elements with the class "nav_contents"
+    const fbContentsElements = document.querySelectorAll('.fdback_txt');
+    
+    // Loop through each element and add the "iphone-specific" class
+    fbContentsElements.forEach(function(element) {
+        element.classList.add('iphone-specific');
+    });
+}

@@ -316,7 +316,10 @@
 .fdback_txt h1{
   font-size: 1.2rem;
   line-height: 1.5rem;
-  -webkit-transform: translateY(-2rem);
+  -webkit-transform: translateY(-4rem);
+}
+.fdback_txt.iphone-specific h1{
+  -webkit-transform: translateY(-1rem);
 }
 .cards{
   flex-direction: column;
