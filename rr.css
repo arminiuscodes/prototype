@@ -312,6 +312,9 @@
   height: 60rem;
   -webkit-transform: translateY(-18rem);
 }
+.cards.iphone-specific{
+  -webkit-transform: translateY(-14rem);
+}
 .cards01,.cards02,.cards03{
   width: 18rem;
   height: 30rem;
